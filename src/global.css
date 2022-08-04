@@ -1,0 +1,503 @@
+/* @import '~antd/es/style/themes/default.less'; */
+
+@import '/static/iconfont/iconfont.css';
+
+@font-face {
+    font-family: 'NextIcon';
+    src: url('/static/iconfont/iconfont.eot');
+    src: url('/static/iconfont/iconfont.eot?#iefix') format('embedded-opentype'),
+        url('/static/iconfont/iconfont.woff') format('woff'),
+        url('/static/iconfont/iconfont.ttf') format('truetype'),
+        url('/static/iconfont/iconfont.svg#NextIcon') format('svg');
+}
+
+html,
+body,
+#root {
+    height: 100%;
+}
+
+.colorWeak {
+    filter: invert(80%);
+}
+
+.ant-layout {
+    min-height: 100vh;
+}
+
+canvas {
+    display: block;
+}
+
+body {
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+.h100 {
+    height: 100%;
+}
+
+.ant-pro-basicLayout-content {
+    margin: 8px !important;
+}
+
+.ant-pro-sider.ant-layout-sider-collapsed .ant-pro-sider-logo {
+    padding: 16px 2px;
+}
+
+.ant-pro-sider-logo img {
+    display: inline-block;
+    height: 27px;
+    vertical-align: middle;
+}
+
+/* .ant-pro-basicLayout-content {
+    margin: 0px !important;
+
+} */
+
+/* .ant-pro-basicLayout-content .ant-pro-page-container {
+    margin: -12px -12px 0;
+} */
+
+/* .ant-pro-page-container-children-content {
+    margin: 12px 12px 0;
+}  */
+
+.next-pagination {
+    margin-top: 12px;
+}
+
+/*滚动条样式*/
+.scrollbar::-webkit-scrollbar {
+    /*滚动条整体样式*/
+    width: 6px;
+    /*高宽分别对应横竖滚动条的尺寸*/
+    height: 0px;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+    /*滚动条里面小方块*/
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.scrollbar::-webkit-scrollbar-track {
+    /*滚动条里面轨道*/
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background: #ededed49;
+}
+
+.next-table::-webkit-scrollbar {
+    /*滚动条整体样式*/
+    width: 6px;
+    /*高宽分别对应横竖滚动条的尺寸*/
+    height: 0px;
+}
+
+.next-table::-webkit-scrollbar-thumb {
+    /*滚动条里面小方块*/
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.next-table::-webkit-scrollbar-track {
+    /*滚动条里面轨道*/
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background: #ededed49;
+}
+
+.next-table-inner::-webkit-scrollbar {
+    /*滚动条整体样式*/
+    width: 6px;
+    /*高宽分别对应横竖滚动条的尺寸*/
+    height: 6px;
+}
+
+.next-table-inner::-webkit-scrollbar-thumb {
+    /*滚动条里面小方块*/
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.next-table-inner::-webkit-scrollbar-track {
+    /*滚动条里面轨道*/
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background: #ededed49;
+}
+
+.next-table-body::-webkit-scrollbar {
+    /*滚动条整体样式*/
+    width: 6px;
+    /*高宽分别对应横竖滚动条的尺寸*/
+    height: 6px;
+}
+
+.next-table-body::-webkit-scrollbar-thumb {
+    /*滚动条里面小方块*/
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.next-table-body::-webkit-scrollbar-track {
+    /*滚动条里面轨道*/
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background: #ededed49;
+}
+
+.next-pagination {
+    text-align: right;
+}
+
+/* 主题包 临时*/
+/* .next-table th .next-table-cell-wrapper {
+    padding: 12px 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+    white-space: nowrap;
+}
+
+.app-header {
+    background-color: #4a5cd2;
+}
+
+.sysName_layout_1_theme7661 {
+    color: #fff;
+}
+
+.sysName_layout_2_theme7661 {
+    color: #304156;
+} */
+
+/* common */
+.mainBackgroundColor {
+    background-color: #ffffff;
+}
+
+.lableFontColor {
+    color: #333333;
+}
+
+.next-table th .next-table-cell-wrapper {
+    padding: 12px 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+    white-space: nowrap;
+}
+
+.app-body .main {
+    background-color: #f6f7fb !important;
+    color: #333333;
+}
+
+.backgroundColorTransparent {
+    background-color: transparent;
+}
+
+.commonBorder_left {
+    border-left: 1px #0000001f solid;
+}
+
+.commonBorder_right {
+    border-right: 1px #0000001f solid;
+}
+
+.commonBorder_top {
+    border-top: 1px #0000001f solid;
+}
+
+.commonBorder_bottom {
+    border-bottom: 1px #0000001f solid;
+}
+
+/* 报警分析器 */
+.faultEliminationCls {
+    background-color: #fff;
+}
+
+.leftContentCls {
+    background-color: #fff;
+}
+
+/* Card */
+/* .card_comp {
+    background-color: #ffffff;
+}
+
+.card_comp .card_tit .tit_text {
+    color: #333333;
+} */
+
+/* .card_container {
+    background-color: #ffffff;
+}
+
+.card_container .title {
+    border-bottom: 1px #f4f4f4 solid !important;
+}
+
+.card_container .titlefont {
+    color: #2f323a;
+} */
+
+.module_layout .mudule_title {
+    border-bottom: 1px #f4f4f4 solid !important;
+}
+
+/* 查询/操作区域 */
+.queryOrOperationArea {
+    background-color: #ffffff;
+}
+
+/* Table */
+.next-pagination-total {
+    color: #333333;
+}
+
+.next-pagination {
+    text-align: right;
+}
+
+/* pop */
+.nodiot-popover-message-title {
+    color: rgba(0, 0, 0, 0.65);
+}
+
+/* 个性化设置 bg */
+.themeDrawer .container {
+    background-color: #ffffff !important;
+}
+
+.themeDrawer .container p {
+    color: rgba(0, 0, 0, 0.65);
+}
+
+/* .next-table-header {
+    padding-bottom: 20px !important;
+} */
+
+/* 页面容器 svg图 */
+.pageLayoutSvgContainer {
+    background-color: #ffffff;
+}
+
+/* 按钮 双色按钮 */
+.editButton .btnTitle {
+    color: #585858;
+}
+
+.deleteButton .btnTitle {
+    color: #585858;
+}
+
+.buttonFatherBtn .btnTitle {
+    color: #585858;
+}
+
+/* 分析主题组件 */
+.analysisSubject_type08 {
+    background-color: #f4f4f4;
+}
+
+.analysisSubject_type08 .desc {
+    color: #333333;
+}
+
+/* 页面设计器 */
+.pageDesginComponentBoxItem {
+    background-color: #f4f6fc;
+    border: 1px #f4f6fc solid;
+    color: #333333;
+}
+
+.pageDesgin_splitLineLeft {
+    border-left: 1px solid #e8e8e8;
+}
+
+.pageDesgin_splitLineRight {
+    border-right: 1px solid #e8e8e8;
+}
+
+.pageDesgin_canvas_bgColor {
+    background-color: #ffecec;
+}
+
+/* 彩色 */
+.app-header {
+    background-color: #f5faff;
+    -webkit-box-shadow: 2px 4px 8px #e6e7e7;
+}
+
+.app-header .white {
+    background-color: #fff;
+}
+
+.app-header .colour {
+    /* background-image: url('./images/app-header-bg-color.png');
+    background-position: left;
+    background-repeat: repeat-x; */
+}
+
+.app-header .colour .logo {
+    color: #fff;
+}
+
+.app-header .colour .menuFoldIconColor {
+    color: #fff;
+    cursor: 'pointer';
+    margin-left: 8px;
+}
+
+.app-header .colour .next-breadcrumb .next-breadcrumb-text {
+    color: #fff;
+}
+
+.app-header .colour .next-breadcrumb .next-breadcrumb-text.activated {
+    color: #fff;
+}
+
+.app-header .colour .sysName {
+    color: #fff;
+}
+
+.app-header .colour .nickName {
+    color: #fff;
+}
+
+.sidebar .colour {
+    /* background: url('./images/app-sidebar-bg-color.png') bottom no-repeat,
+        linear-gradient(
+            180deg,
+            #20466e 0%,
+            #19447e 20%,
+            #0d3c6d 35%,
+            #0c3269 58%,
+            #071b44 78%,
+            #041c38 100%
+        );
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2); */
+}
+
+.sidebar .colour > ul {
+    /* opacity: 0.5;
+    background: #070e29; */
+}
+
+.sidebar .colour .next-nav.next-primary .next-menu-sub-menu .next-menu-item {
+    /* background-color: transparent; */
+}
+
+.sidebar .colour .next-nav.next-normal .next-nav-item.next-menu-item.next-child-selected {
+    background-color: #f9fafc;
+}
+
+.sidebar .colour .next-nav.next-normal .next-nav-item.next-menu-item.next-child-selected {
+    color: #515a6e;
+}
+
+.sidebar .colour .next-nav.next-normal .next-nav-item.next-menu-item.next-opened {
+    background-color: #f9fafc;
+    color: #515a6e;
+}
+
+/* 普通 */
+.app-header .general {
+    background-color: #f9fafc;
+}
+
+.app-header .general .logo {
+    color: #333333;
+}
+
+.app-header .general .menuFoldIconColor {
+    color: #333333;
+    cursor: 'pointer';
+    margin-left: 8px;
+}
+
+.app-header .general .next-breadcrumb .next-breadcrumb-text {
+    color: #333333;
+}
+
+.app-header .general .next-breadcrumb .next-breadcrumb-text.activated {
+    color: #333333;
+}
+
+.app-header .general .sysName {
+    color: #333333;
+}
+
+.app-header .general .nickName {
+    color: #333333;
+}
+
+.app-header .general .next-hoz {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.sidebar .general {
+    background-color: #ffffff;
+}
+
+.sidebar .general > ul {
+    background-color: transparent;
+}
+
+.sidebar .general .next-nav.next-primary .next-menu-sub-menu .next-menu-item {
+}
+
+.sidebar .general .next-nav.next-normal .next-nav-item.next-menu-item.next-child-selected {
+    background-color: #fff;
+}
+
+.sidebar .general .next-nav.next-normal .next-nav-item.next-menu-item.next-child-selected {
+    color: #515a6e;
+}
+
+.sidebar .general .next-nav.next-normal .next-nav-item.next-menu-item.next-opened {
+    background-color: #fff;
+    color: #515a6e;
+}
+
+.sidebar .general .next-nav.next-normal .next-nav-item.next-menu-item.next-selected {
+    color: #428bff;
+    background-color: #fff;
+}
+
+.sysName_layout_1_theme6151 {
+    color: #fff;
+}
+
+.sysName_layout_2_theme6151 {
+    /* color: #304156; */
+    color: #fff;
+}
+
+.next-drawer-body {
+    background: #f6f7fb !important;
+}
+
+.nodeSelCls .nodeItemTextCls,
+.stepItemSelCls .stepItemTextCls {
+    color: #fff !important;
+    background-color: #095cb5;
+}

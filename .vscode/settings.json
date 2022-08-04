@@ -1,0 +1,52 @@
+{
+    "cSpell.words": [
+        "alifd",
+        "antd",
+        "camelcase",
+        "CIMS",
+        "devfpy",
+        "echarts",
+        "gojs",
+        "isused",
+        "jiym",
+        "lightgray",
+        "nodiot",
+        "nofunc",
+        "Popconfirm",
+        "sider",
+        "Siderbar",
+        "umijs",
+        "usermenu",
+        "vuex",
+        "wangeditor"
+    ],
+
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[less]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+
+    "fileheader.configObj": {
+        "dateFormat": "YYYY-MM-DD", // 时间的默认格式
+        "folderBlacklist": ["node_modules"],
+        "prohibitAutoAdd": ["json", "md"]
+    },
+
+    "fileheader.cursorMode": {
+        "description": "", // 函数注释生成之后，光标移动到这里
+        "param": "", // param 开启函数参数自动提取 需要将光标放在函数行或者函数上方的空白行
+        "return": ""
+    }
+}
